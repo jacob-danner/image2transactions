@@ -1,0 +1,319 @@
+2024/5/04 Miyabi 9
+    Assets:Discover:Spent    $70
+    Assets:Discover:Main:Wants:Other
+
+2024/5/04 Miyabi 9
+    Expenses:Wants:Other    $70
+    Liabilities:CreditCard
+
+2024/5/04 DSM Parking
+    Assets:Discover:Spent    $1.25
+    Assets:Discover:Main:Wants:Other
+
+2024/5/04 DSM Parking
+    Expenses:Wants:Other    $1.25
+    Liabilities:CreditCard
+
+2024/5/04 ChatGPT
+    Assets:Discover:Spent    $20
+    Assets:Discover:Main:Wants:Monthly
+
+2024/5/04 ChatGPT
+    Expenses:Wants:Monthly    $20
+    Liabilities:CreditCard
+
+2024/5/04 Amazon prime
+    Assets:Discover:Spent    $16.04
+    Assets:Discover:Main:Needs:Monthly
+
+2024/5/04 Amazon prime
+    Expenses:Needs:Monthly    $16.04
+    Liabilities:CreditCard
+
+2024/5/06 Qdoba
+    Assets:Discover:Spent    $22.04
+    Assets:Discover:Main:Wants:Other
+
+2024/5/06 Qdoba
+    Expenses:Wants:Other    $22.04
+    Liabilities:CreditCard
+
+2024/5/07 Walmart
+    Assets:Discover:Spent    $66.96
+    Assets:Discover:Main:Needs:Groceries
+
+2024/5/07 Walmart
+    Expenses:Needs:Groceries    $66.96
+    Liabilities:CreditCard
+
+2024/5/07 Culvers
+    Assets:Discover:Spent    $13.95
+    Assets:Discover:Main:Wants:Other
+
+2024/5/07 Culvers
+    Expenses:Wants:Other    $13.95
+    Liabilities:CreditCard
+
+2024/5/09 Mad Meatball
+    Assets:Discover:Spent    $16
+    Assets:Discover:Main:Wants:Other
+
+2024/5/09 Mad Meatball
+    Expenses:Wants:Other    $16
+    Liabilities:CreditCard
+
+2024/5/09 Spotify
+    Assets:Discover:Spent    $11.76
+    Assets:Discover:Main:Wants:Monthly
+
+2024/5/09 Spotify
+    Expenses:Wants:Monthly    $11.76
+    Liabilities:CreditCard
+
+2024/5/10 Lua THC drinks
+    Assets:Discover:Spent    $28.87
+    Assets:Discover:Main:Wants:Other
+
+2024/5/10 Lua THC drinks
+    Expenses:Wants:Other    $28.87
+    Liabilities:CreditCard
+
+2024/5/10 Jimmy Johns
+    Assets:Discover:Spent    $22.18
+    Assets:Discover:Main:Wants:Other
+
+2024/5/10 Jimmy Johns
+    Expenses:Wants:Other    $22.18
+    Liabilities:CreditCard
+
+2024/5/11 Adidas shoes
+    Assets:Discover:Spent    $115.33
+    Assets:Discover:FutureWants
+
+2024/5/11 Adidas shoes
+    Expenses:FutureWants    $115.33
+    Liabilities:CreditCard
+
+2024/5/12 Amazon Emily grad gift
+    Assets:Discover:Spent    $109.50
+    Assets:Discover:FutureWants
+
+2024/5/12 Amazon Emily grad gift
+    Expenses:FutureWants    $109.50
+    Liabilities:CreditCard
+
+2024/5/12 Dominos
+    Assets:Discover:Spent    $17.86
+    Assets:Discover:Main:Wants:Other
+
+2024/5/12 Dominos
+    Expenses:Wants:Other    $17.86
+    Liabilities:CreditCard
+	
+2024/5/14 Walmart groceries
+    Assets:Discover:Spent    $49.02
+    Assets:Discover:Main:Needs:Groceries
+
+2024/5/14 Walmart groceries
+    Expenses:Needs:Groceries    $49.02
+    Liabilities:CreditCard
+
+2024/5/14 Target Emily grad gift film
+    Assets:Discover:Spent    $13.90
+    Assets:Discover:FutureWants
+
+2024/5/14 Target Emily grad gift film
+    Expenses:FutureWants    $13.90
+    Liabilities:CreditCard
+
+2024/5/15 Internet bill
+    Assets:Discover:Spent    $85
+    Assets:Discover:Main:Needs:Monthly
+	
+2024/5/15 Internet bill
+    Expenses:Needs:Monthly    $85
+    Liabilities:CreditCard
+
+2024/5/15 Amazon Emily grad gift film
+    Assets:Discover:Spent    $29.92
+    Assets:Discover:FutureWants
+
+2024/5/15 Amazon Emily grad gift film
+    Expenses:FutureWants    $29.92
+    Liabilities:CreditCard
+
+2024/5/17 Despensary
+    Assets:Discover:Spent    $21.40
+    Assets:Discover:Main:Wants:Other
+
+2024/5/17 Despensary
+    Expenses:Wants:Other    $21.40
+    Liabilities:CreditCard
+
+2024/5/17 Pancheros
+    Assets:Discover:Spent    $23.11
+    Assets:Discover:Main:Wants:Other
+
+2024/5/17 Pancheros
+    Expenses:Wants:Other    $23.11
+    Liabilities:CreditCard
+
+2024/5/19 BP drinks
+    Assets:Discover:Spent    $6.07
+    Assets:Discover:Main:Wants:Other
+
+2024/5/19 BP drinks
+    Expenses:Wants:Other    $6.07
+    Liabilities:CreditCard
+	
+2024/5/21 Walmart Groceries
+    Assets:Discover:Spent    $37.86
+    Assets:Discover:Main:Needs:Groceries
+
+2024/5/21 Walmart Groceries
+    Expenses:Needs:Groceries    $37.86
+    Liabilities:CreditCard
+
+2024/5/21 Gas from Sams
+    Assets:Discover:Spent    $38.04
+    Assets:Discover:Main:Needs:Gas
+
+2024/5/21 Gas from Sams
+    Expenses:Needs:Gas    $38.04
+    Liabilities:CreditCard
+
+2024/5/21 Sams Groceries
+    Assets:Discover:Spent    $84.57
+    Assets:Discover:Main:Needs:Groceries
+
+2024/5/21 Sams Groceries
+    Expenses:Needs:Groceries    $84.57
+    Liabilities:CreditCard
+
+2024/5/21 Palmers lunch
+    Assets:Discover:Spent    $21.06
+    Assets:Discover:Main:Wants:Other
+
+2024/5/21 Palmers lunch
+    Expenses:Wants:Other    $21.06
+    Liabilities:CreditCard
+
+2024/5/22 Amazon Prime HBO Max
+    Assets:Discover:Spent    $10.69
+    Assets:Discover:Main:Wants:Monthly
+
+2024/5/22 Amazon Prime HBO Max
+    Expenses:Wants:Monthly    $10.69
+    Liabilities:CreditCard
+
+2024/5/27 Chipotle
+    Assets:Discover:Spent    $24.98
+    Assets:Discover:Main:Wants:Other
+
+2024/5/27 Chipotle
+    Expenses:Wants:Other    $24.98
+    Liabilities:CreditCard
+	
+2024/5/27 Obsidian
+    Assets:Discover:Spent    $10
+    Assets:Discover:Main:Wants:Monthly
+
+2024/5/27 Obsidian
+    Expenses:Wants:Monthly    $10
+    Liabilities:CreditCard
+
+2024/5/30 Pancheros
+    Assets:Discover:Spent    $11.56
+    Assets:Discover:Main:Wants:Other
+
+2024/5/30 Pancheros
+    Expenses:Wants:Other    $11.56
+    Liabilities:CreditCard
+
+2024/5/31 Beer garden
+    Assets:Discover:Spent    $39.04
+    Assets:Discover:Main:Wants:Other
+
+2024/5/31 Beer garden
+    Expenses:Wants:Other    $39.04
+    Liabilities:CreditCard
+
+2024/5/31 Dominos
+    Assets:Discover:Spent    $26.55
+    Assets:Discover:Main:Wants:Other
+
+2024/5/31 Dominos
+    Expenses:Wants:Other    $26.55
+    Liabilities:CreditCard
+
+2024/6/1 Walmart allergy meds
+    Assets:Discover:Spent    $48.26
+    Assets:Discover:Main:Needs:Groceries
+
+2024/6/1 Walmart allergy meds
+    Expenses:Needs:Groceries    $48.26
+    Liabilities:CreditCard
+
+2024/6/1 Google GSuite
+    Assets:Discover:Spent    $12.84
+    Assets:Discover:Main:Wants:Monthly
+
+2024/6/1 Google GSuite
+    Expenses:Wants:Monthly    $12.84
+    Liabilities:CreditCard
+
+2024/6/2 AWS bill
+    Assets:Discover:Spent    $2.89
+    Assets:Discover:Main:Wants:Monthly
+
+2024/6/2 AWS bill
+    Expenses:Wants:Monthly    $2.89
+    Liabilities:CreditCard
+
+2024/6/2 INDYCAR tickets
+    Assets:Discover:Spent    $308
+    Assets:Discover:FutureWants
+
+2024/6/2 INDYCAR tickets
+    Expenses:FutureWants    $308
+    Liabilities:CreditCard
+
+2024/6/2 Amazon house utilities
+    Assets:Discover:Spent    $76.01
+    Assets:Discover:Furniture
+
+2024/6/2 Amazon house utilities
+    Expenses:Furniture    $76.01
+    Liabilities:CreditCard
+
+2024/6/4 Amazon Prime
+    Assets:Discover:Spent    $16.04
+    Assets:Discover:Main:Needs:Monthly
+
+2024/6/4 Amazon Prime
+    Expenses:Needs:Monthly    $16.04
+    Liabilities:CreditCard
+
+2024/6/4 Chick Fil A
+    Assets:Discover:Spent    $11.97
+    Assets:Discover:Main:Wants:Other
+
+2024/6/4 Chick Fil A
+    Expenses:Wants:Other    $11.97
+    Liabilities:CreditCard
+
+2024/6/4 ChatGPT subscription
+    Assets:Discover:Spent    $20
+    Assets:Discover:Main:Wants:Monthly
+
+2024/6/4 ChatGPT subscription
+    Expenses:Wants:Monthly    $20
+    Liabilities:CreditCard
+
+2024/6/4 Walmart groceries
+    Assets:Discover:Spent    $17.95
+    Assets:Discover:Main:Needs:Groceries
+
+2024/6/4 Walmart groceries
+    Expenses:Needs:Groceries    $17.95
+    Liabilities:CreditCard
