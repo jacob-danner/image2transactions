@@ -41,7 +41,7 @@ __Instructions__:
             - "Fri Jun 22, 2024" => "22"
             - "Mon Jun 17, 2024" => "17"
 
-3. Return all cleaned transaction information as a JSON array of these objects such that it 
+3. Return all cleaned transaction information as a JSON array of these objects such that it
 is directly parsable by pydantic.
 4. Output __only__ the JSON array without any additional text, symbols, or Markdown formatting.
 
