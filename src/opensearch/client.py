@@ -2,16 +2,17 @@ from opensearchpy import OpenSearch
 
 import warnings
 from urllib3.exceptions import InsecureRequestWarning
-warnings.simplefilter('ignore', InsecureRequestWarning)
+
+warnings.simplefilter("ignore", InsecureRequestWarning)
 
 
 def init_client() -> OpenSearch:
-    host = 'localhost'
+    host = "localhost"
     port = 9200
-    auth = ('admin', 'Image2Transaction$')
+    auth = ("admin", "Image2Transaction$")
 
     client = OpenSearch(
-        hosts=[{'host': host, 'port': port}],
+        hosts=[{"host": host, "port": port}],
         http_auth=auth,
         use_ssl=True,
         verify_certs=False,
@@ -21,4 +22,4 @@ def init_client() -> OpenSearch:
 
 
 client = init_client()
-index_name = 'transactions'
+index_name = "transactions"

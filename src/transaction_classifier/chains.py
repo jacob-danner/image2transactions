@@ -40,9 +40,10 @@ classify_template = """
 __Task__: Classify the 'from_account' for the unclassified_transaction.
 
 __Instructions__:
-1. Analyze the provided classification_problem_context to infer the 'from_account' for the unclassified_transaction.
-2. Output the classified 'from_account'.
-   - __Don't guess.__ If there are no similar transactions to infer from in 'classification_problem_context', return 'Discover:Main:UNKNOWN'.
+1. Analyze the provided classification_problem_context to infer the 'from_account' for the
+unclassified_transaction.
+2. Output the classified 'from_account'. __Don't guess.__ If there are no similar transactions to
+infer from in classification_problem_context, return 'Discover:Main:UNKNOWN'.
 
 __Desired output__: Be concise. Example:
 'Discover:Main:Assets:X'
@@ -54,33 +55,72 @@ __Desired output__: Be concise. Example:
 rank_prompt = ChatPromptTemplate.from_template(rank_template)
 classify_prompt = ChatPromptTemplate.from_template(classify_template)
 
-model = ChatOpenAI(model='gpt-4o')
+model = ChatOpenAI(model="gpt-4o")
 retriever = OpenSearchRetriever(client=client, index_name=index_name)
 
 rank_chain = (
-    RunnableLambda(lambda transaction: runnable_log_to_file('## Rank Chain Start', to_return=transaction)) 
-    | {"retrieved_transactions": RunnableLambda(lambda t: retriever.invoke(t.vendor)) | format_context,
-       "unclassified_transaction": RunnableLambda(stringify_transaction)}
-    | rank_prompt 
-    | RunnableLambda(lambda prompt_value: runnable_log_to_file('### Rank Chain Prompt', to_return=prompt_value, content=prompt_value.to_string()))
+    RunnableLambda(
+        lambda transaction: runnable_log_to_file(
+            "## Rank Chain Start", to_return=transaction
+        )
+    )
+    | {
+        "retrieved_transactions": RunnableLambda(lambda t: retriever.invoke(t.vendor))
+        | format_context,
+        "unclassified_transaction": RunnableLambda(stringify_transaction),
+    }
+    | rank_prompt
+    | RunnableLambda(
+        lambda prompt_value: runnable_log_to_file(
+            "### Rank Chain Prompt",
+            to_return=prompt_value,
+            content=prompt_value.to_string(),
+        )
+    )
     | model
     | StrOutputParser()
-    | RunnableLambda(lambda model_output: runnable_log_to_file('### Rank Chain Model Output', to_return=model_output, content=model_output))
+    | RunnableLambda(
+        lambda model_output: runnable_log_to_file(
+            "### Rank Chain Model Output", to_return=model_output, content=model_output
+        )
+    )
 )
 
 classify_chain = (
-    RunnableLambda(lambda transaction: runnable_log_to_file('## Classify Chain Start', to_return=transaction)) 
+    RunnableLambda(
+        lambda transaction: runnable_log_to_file(
+            "## Classify Chain Start", to_return=transaction
+        )
+    )
     | {"classification_problem_context": RunnablePassthrough()}
     | classify_prompt
-    | RunnableLambda(lambda prompt_value: runnable_log_to_file('### Classify Chain Prompt', to_return=prompt_value, content=prompt_value.to_string()))
+    | RunnableLambda(
+        lambda prompt_value: runnable_log_to_file(
+            "### Classify Chain Prompt",
+            to_return=prompt_value,
+            content=prompt_value.to_string(),
+        )
+    )
     | model
     | StrOutputParser()
-    | RunnableLambda(lambda model_output: runnable_log_to_file('### Classify Chain Model Output', to_return=model_output, content=model_output))
+    | RunnableLambda(
+        lambda model_output: runnable_log_to_file(
+            "### Classify Chain Model Output",
+            to_return=model_output,
+            content=model_output,
+        )
+    )
 )
 
 transaction_classifier_chain = (
-    RunnableLambda(lambda transaction: runnable_log_to_file('# TRANSACTION CLASSIFIER CHAIN START', to_return=transaction))
+    RunnableLambda(
+        lambda transaction: runnable_log_to_file(
+            "# TRANSACTION CLASSIFIER CHAIN START", to_return=transaction
+        )
+    )
     | rank_chain
     | classify_chain
-    | RunnableLambda(lambda classification: runnable_log_to_file('#-----#', to_return=classification))
+    | RunnableLambda(
+        lambda classification: runnable_log_to_file("#-----#", to_return=classification)
+    )
 )
