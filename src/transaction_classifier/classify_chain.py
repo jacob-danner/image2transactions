@@ -1,4 +1,4 @@
-from ..main import model
+from ..resources import model
 from ..models import ClassifiedTransaction, CleanedTransaction
 from ..utils import Context
 

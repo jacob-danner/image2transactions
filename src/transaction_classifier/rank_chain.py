@@ -1,4 +1,4 @@
-from ..main import model, retriever
+from ..resources import model, retriever
 from ..utils import Context
 
 from langchain_core.prompts import ChatPromptTemplate
