@@ -8,4 +8,8 @@ def transactions_to_markdown(transactions: ClassifiedTransaction):
 
 
 def transaction_to_markdown(t: ClassifiedTransaction) -> str:
-    return f"| {t.vendor} | {t.amount} | {t.day} | {t.from_account} |"
+    return (
+        f"| {t.vendor} | {t.amount} | {t.day} | {t.from_account} | Assets:Discover:Spent |\n"
+        f"| {t.vendor} | {t.amount} | {t.day} "
+        f"| Liabilities:CreditCard | Expenses:{t.from_account} |"
+    )

@@ -13,10 +13,18 @@ __Instructions__:
 1. Analyze the provided classification_problem_context to infer the 'from_account' for the
 unclassified_transaction.
 2. Output the classified 'from_account'. __Don't guess.__ If there are no similar transactions to
-infer from in classification_problem_context, return 'Discover:Main:UNKNOWN'.
+infer from in classification_problem_context, return Assets:Discover:Main:UNKNOWN.
+
+__Possible accounts__:
+- Assets:Discover:Main:Wants:Other
+- Assets:Discover:Main:Wants:Monthly
+- Assets:Discover:Main:Needs:Gas
+- Assets:Discover:Main:Needs:Groceries
+- Assets:Discover:Main:Needs:Monthly
+- Assets:Discover:Main:Needs:Monthly
 
 __Desired output__: Be concise. Example:
-'Discover:Main:Assets:Wants:Other'
+Assets:Discover:Main:Wants:Other
 ---
 {classification_problem_context}
 ---
