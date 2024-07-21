@@ -1,0 +1,23 @@
+| UNIVERSITY LIBRAR | 38.86 | 23 | Assets:Discover:Main:Wants:Other | Assets:Discover:Spent |
+| DES MOINES BEER G | 34.16 | 23 | Assets:Discover:Main:Wants:Other | Assets:Discover:Spent |
+| AMAZON | 13.9 | 24 | Assets:Discover:Main:Wants:Other | Assets:Discover:Spent |
+| DOMINO'S | 20.8 | 25 | Assets:Discover:Main:Wants:Other | Assets:Discover:Spent |
+| PANCHEROS | 11.56 | 26 | Assets:Discover:Main:Wants:Other | Assets:Discover:Spent |
+| WALMART | 33.07 | 27 | Assets:Discover:Main:Needs:Groceries | Assets:Discover:Spent |
+| MCDONALD'S | 6.61 | 27 | Assets:Discover:Main:Wants:Other | Assets:Discover:Spent |
+| HY-VEE | 24.11 | 28 | Assets:Discover:Main:Needs:Groceries | Assets:Discover:Spent |
+| OBSIDIAN.MD | 10.0 | 29 | Assets:Discover:Main:Wants:Other | Assets:Discover:Spent |
+| GOOGLE | 24.84 | 1 | Assets:Discover:Main:Wants:Monthly | Assets:Discover:Spent |
+| TASTY TACOS | 13.96 | 1 | Assets:Discover:Main:Wants:Other | Assets:Discover:Spent |
+| CASEY'S | 40.48 | 1 | Assets:Discover:Main:Needs:Gas | Assets:Discover:Spent |
+| MCDONALD'S | 2.77 | 2 | Assets:Discover:Main:Wants:Other | Assets:Discover:Spent |
+| ROLLING WOK CAFE | 41.93 | 3 | Assets:Discover:Main:Wants:Other | Assets:Discover:Spent |
+| AMAZON | 6.6 | 3 | Assets:Discover:Main:Wants:Monthly | Assets:Discover:Spent |
+| TARGET | 17.31 | 4 | Assets:Discover:Main:Wants:Other | Assets:Discover:Spent |
+| OPENAI | 20.0 | 4 | Assets:Discover:Main:Wants:Monthly | Assets:Discover:Spent |
+| KOHL'S | 47.04 | 4 | Assets:Discover:Main:Wants:Other | Assets:Discover:Spent |
+| AMAZON | 16.04 | 4 | Assets:Discover:Main:Needs:Monthly | Assets:Discover:Spent |
+| PHO 515 | 21.93 | 6 | Assets:Discover:Main:Wants:Other | Assets:Discover:Spent |
+| HIGHLIFE-BAITSHOP | 8.05 | 6 | Assets:Discover:Main:Wants:Other | Assets:Discover:Spent |
+| PANCHEROS | 13.0 | 7 | Assets:Discover:Main:Wants:Other | Assets:Discover:Spent |
+| PANCHEROS | 13.0 | 8 | Assets:Discover:Main:Wants:Other | Assets:Discover:Spent |
