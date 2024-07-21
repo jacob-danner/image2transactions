@@ -1,10 +1,35 @@
-from ..resources import model
-from ..models import CleanedTransaction
-
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.output_parsers import StrOutputParser
-from langchain_core.runnables import RunnableLambda
-import json
+
+parse_template = """
+__Task__: Parse transaction details from a credit card history image.
+
+__Instructions__:
+1. Parse each transaction as JSON in the following format:
+{
+    "vendor": "string",
+    "amount": "string",
+    "date": "string",
+}
+2. Each transaction may contain two numbers that look like "amount". Use the top one.
+3. Return all parsed transaction information as a JSON array of these objects such that it
+4. Output __only__ a JSON array of parsed transactions. Without any
+additional text, symbols, or Markdown formatting.
+
+__Desired output__: Example:
+[
+    {
+        "vendor": "Vendor A",
+        "amount": "100.00",
+        "date": "2024-07-01",
+    },
+    {
+        "vendor": "Vendor B",
+        "amount": "200.00",
+        "date": "2024-07-02",
+    }
+]
+"""
+
 
 clean_template = """
 __Task__: Clean transaction information for a downstream process.
@@ -61,25 +86,7 @@ __Desired output__: Example:
 
 Please clean the transactions in this JSON.
 ---
-{transactions_json}
+{raw_transactions_json_str}
 """
 
-# clean_transaction_chain = (list[RawTransaction]) => list[CleanTransaction]
-
 clean_prompt = ChatPromptTemplate.from_template(clean_template)
-
-clean_transactions_chain = (
-    {
-        "transactions_json": RunnableLambda(
-            lambda raw_transactions: json.dumps(
-                [rt.model_dump() for rt in raw_transactions]
-            )
-        ),
-    }
-    | clean_prompt
-    | model
-    | StrOutputParser()
-    | RunnableLambda(
-        lambda json_str: [CleanedTransaction(**t) for t in json.loads(json_str)]
-    )
-)
